@@ -114,13 +114,9 @@ st.markdown(
 )
 
 
-# ============================================================
-# VALIDATE API KEYS
-# ============================================================
-
 if not CHAT_API_KEY:
     st.error(
-        "GROQ_API_KEY is not configured. "
+        "OPENAI_API_KEY is not configured. "
         "Add it to your .env file."
     )
     st.stop()
